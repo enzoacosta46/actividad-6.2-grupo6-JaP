@@ -1,8 +1,11 @@
 /* asd*/
 
 body {
-  background-color: rgb(255, 255, 165);
+
+    background-color: rgb(255, 255, 165);
+    text-align: center;
 }
+
 
 header{ /* Se centra el texto dentro del header y se crea una sombra para que se vea mejor */
     text-align: center;
