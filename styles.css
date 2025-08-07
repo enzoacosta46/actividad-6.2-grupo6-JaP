@@ -7,7 +7,7 @@ body {
 .image{
     border: 5px solid green;
     border-radius: 10px;
-    height: 400px;
+    height: 400px;  
 }
 
 .link-button {
@@ -18,4 +18,9 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+header{ /* Se centra el texto dentro del header y se crea una sombra para que se vea mejor */
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px #888888;
 }
