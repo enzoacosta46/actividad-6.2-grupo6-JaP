@@ -1,26 +1,34 @@
 /* asd*/
 
 body {
-    background-color: rgb(255, 255, 165);
-}
-
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;  
-}
-
-.link-button {
-    text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+  background-color: rgb(255, 255, 165);
 }
 
 header{ /* Se centra el texto dentro del header y se crea una sombra para que se vea mejor */
     text-align: center;
     box-shadow: 5px 5px 5px 5px #888888;
 }
+
+.image {
+  border: 5px solid green;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.link-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+}
+.link-button:hover {
+  background-color: #45a049;
+}
+.link-button:active {
+  background-color: #3e8e41;
+}
+
