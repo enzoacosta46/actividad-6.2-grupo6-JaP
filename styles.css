@@ -11,15 +11,18 @@ body {
 }
 
 .link-button {
-  text-decoration: none;
-  color: black;
-  border: 1px solid gray;
-  background-color: #f2f2f2;
-  padding: 5px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
   border-radius: 5px;
-  box-shadow: 2px 3px #888888;
+  cursor: pointer;
+  text-align: center;
+  display: block;
 }
-
-/*
-comentario de jose
-*/
+.link-button:hover {
+  background-color: #45a049;
+}
+.link-button:active {
+  background-color: #3e8e41;
+}
