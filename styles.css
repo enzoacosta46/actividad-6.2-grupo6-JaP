@@ -1,11 +1,17 @@
 /* asd*/
 
-body {
-
-    background-color: rgb(255, 255, 165);
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Cambria;
+    font-size: 1.4rem;
+    background-color: rgb(141, 221, 245);
+    text-align: center;
+}
 
 header{ /* Se centra el texto dentro del header y se crea una sombra para que se vea mejor */
     text-align: center;
