@@ -1,7 +1,15 @@
 /* asd*/
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(255, 255, 165);
+    font-family: Cambria;
+    font-size: 1.4rem;
+    background-color: rgb(141, 221, 245);
 }
 
 .image{
